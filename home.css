@@ -117,6 +117,9 @@ header .fa-bars{
         background-position: -180px 40px ; 
         min-height: 85vh;
     }
+    .home .content{
+        margin-top: 180px;
+    }
 }
 
 .home .content{
