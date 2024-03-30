@@ -114,7 +114,7 @@ header .fa-bars{
 @media only screen and (max-width: 600px){
     .home{
         background-size: 200%;
-        background-position: -180px 100px ; 
+        background-position: -180px 50px ; 
     }
 }
 
