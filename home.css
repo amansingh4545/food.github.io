@@ -95,17 +95,38 @@ header .fa-bars{
     min-height: 100vh;
     display: flex;
     align-items: center;
-     background:url(./images/f1.png) no-repeat ;
-     background-size: 30%;
+    background:url(./images/f1.png) no-repeat ;
+    background-size: 30%;
     background-position: 800px 150px ; 
 }
+@media only screen and (max-width: 1000px){
+    .home{
+        background:url(./images/image.png) no-repeat ;
+        background-size: 140%;
+        background-position: -180px 10px ;
+    }
+    .home .content h3{
+        font-size: 3rem;
+        color:black;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .home{
+        background-size: 200%;
+        background-position: -180px 150px ; 
+    }
+}
+
 .home .content{
     max-width: 40rem;
 }
+
 .home .content h3{
     font-size: 3rem;
-    color:rgb(0, 0, 0);
+    color:black;
 }
+
 .home .content a{
     text-decoration: none;
     padding: 18px 50px;
@@ -365,6 +386,30 @@ header .fa-bars{
     justify-content: center;
     font-size: 10px;
 }
+
+@media only screen and (max-width : 835px){
+    .footer .foot .loc{
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width : 665px){
+    .footer .foot .loc .city{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer .foot .loc .city a{
+        margin: 5px;
+        font-size: 20px;
+        background-color: rgba(128, 128, 128, 0.553);
+        border-bottom: 2px solid rgba(0, 0, 0, 0.295);
+        border-radius: 5px;
+    }
+}
+
 .footer .foot .loc h1{
     font-size: 20px;
     padding-left: 10px;
@@ -419,15 +464,6 @@ header .fa-bars{
     section{
         padding:2rem;
     }
-
-    .home{
-        background-position: center;
-        background-size: 200%;
-    }
-    .home .content h3{
-        color:rgb(255, 248, 248);
-    }
-    
 }
 
 @media (max-width:768px){
@@ -456,10 +492,6 @@ header .fa-bars{
         display: block;
     }
 
-    .home .content h3{
-        font-size: 4rem;
-    }
-
     .icons-container .icons h3{
         font-size: 2rem;
     }
@@ -468,7 +500,6 @@ header .fa-bars{
         font-size: 1.7rem;
     }
 
-    
 }
 
 @media (max-width:450px){
